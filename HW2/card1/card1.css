@@ -1,0 +1,29 @@
+.cards1 {
+  width: 80%;
+  height: auto;
+  background: #b3d4fc;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.d1, .d2, .d3 {
+  width: 30%;
+  height: 100%;
+  background: lightgray;
+  border: 2px solid darkblue;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 2px;
+}
+
+.cards1>button {
+  margin: 10px;
+  width: 60%;
+  background: chartreuse;
+  border: 2px solid red;
+}

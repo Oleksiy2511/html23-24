@@ -1,0 +1,76 @@
+.card2 {
+  margin: 50px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: lightseagreen;
+  background: aliceblue;
+
+}
+
+h2{
+  color: red;
+}
+
+.cards2 {
+  margin: 20px;
+  padding: 20px 100px;
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.image:hover{
+  background: burlywood;
+}
+.title:hover{
+  background:chartreuse;
+}
+.text:hover{
+  background:gold;
+}
+.image {
+  margin: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: lightseagreen;
+}
+
+
+
+
+.fa-solid{
+  font-size: 40px;
+}
+
+
+.face3, .face2, .face1, .face4 {
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 0 3px 1px  lightseagreen;
+}
+
+.card2>button {
+  text-align: center;
+  height: 20px;
+  width: fit-content;
+}
+.button>button{
+  background:lightseagreen ;
+  color: white;
+  border: none;
+
+}
+
+
+
+
