@@ -1,80 +1,254 @@
-.wrap{padding: 0;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h6, p {
+    margin-top: 7px;
+    text-align: center;
+    color: #090000;
+}
+
+.backgroundBlue, .backgroundBlue1 {
+    background: mediumslateblue;
+    border-radius: 5px;
+}
+
+.h40 {
+    height: 40px;
+}
+
+.w40{
+    width: 40px;
+}
+
+.w50 {
+    width: 50px;
+}
+
+.w60 {
+    width: 60px;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.circle {
+    border-radius: 50px;
+}
+
+p {margin: 0;
+    padding: 0;
+    font-size: 6px;
+}
+
+.square{
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+}
+
+
+
+.wrap {
     margin: 20px;
     height: 739px;
     width: 280px;
-    background:#CED8E1;
+    background: #CED8E1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-
+    align-items: center;
+    box-sizing: border-box;
 }
 
-.header{
+
+.top {
+    background: #090000;
+    height: 20%;
+}
+
+.header {
     padding: 5px 20px;
-    height: 50px;
+    height: 30px;
     background: #CED8E1;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
 }
-.search{
-    width: 100px;
-    height: 30px;
+
+.search {
+    height: 15px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 
 }
 
-.burger_menu{
-    height: 30px;
-    width: 30px;
+.fa-magnifying-glass {
+    font-size: 10px;
+    margin-right: 15px;
+}
+
+.burger_menu {
+    height: 15px;
+    width: 15px;
     display: flex;
     flex-direction: column;
 
 }
 
-.line{
+.line {
     margin: 2px 0;
     height: 4px;
-    width: 25px;
+    width: 20px;
     background: #090000;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-button{
-    width: 100px;
-    height: 30px;
+button {
+    width: 40px;
+    height: 17px;
     background: #090000;
-    color: white;
     border-radius: 5px;
+
 }
 
-
-
-
-
-
-
-.backBlue{
- background: mediumslateblue;
-}
-.h40{
-    height: 40px;
+.menu > p {
+    padding: 0 50px;
+    color: mediumslateblue;
 }
 
-.w50{
+.menu>h6{
+    color: mediumslateblue;
+}
+
+.backgroundBlue1 {
+    margin-top: 7px;
     width: 50px;
+    height: 10px;
 }
-.w100{
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.innerBoxes3 {
+    display: flex;
+    position: absolute;
+    top: 147px;
+}
+
+.innerBoxes3 > .box {
+    margin: 0 3px;
+}
+
+
+.information {
+    padding-top: 30px;
+}
+
+
+.smallBoxes8 {
+    margin-bottom: 15px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.smallBox {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+.smallBox > p {
+    font-size: 7px;
+    margin: 1px;
+}
+
+.smallBox > .box {
+    margin: 5px 0 0 0;
+}
+
+
+
+.rectangle4 {
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rectangle {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+
+.rectangle>p{
     width: 100px;
+text-align: start;
 }
-.circle{
-    border-radius: 50px;
+
+
+
+
+.arrowMenu{
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.circleText{
+    height: 50px;
+    display: flex;
+margin: 20px 10%;
+
+}
+.h6P>p{
+    margin-left: 10px;
+    text-align: start;
+}
+.h6P{
+    width: 70%;
+}
+
+
+
+.bottom{
+    margin-bottom: 0;
+    width: 100%;
+    height: 7%;
+    background: #090000;
+}
+
+.smallSquare3{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+.bottom>p{
+    color: mediumslateblue;
+}
+.square{
+    margin: 3px;
+}
+
 
 
 
